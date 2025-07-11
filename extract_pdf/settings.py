@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-3=^j)^ic8rm_#n=fyty%oj@b8fmkp2+bfe793oy^f3#ew__naj
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['extractpdf-txjo.onrender.com']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
