@@ -4,7 +4,8 @@ import PyPDF2
 # Create your views here.
 def index(request):
     return render(request, 'index.html')
-
+    
+@csrf_exempt
 def extract_text(request):
     if request.method == 'POST':
         print(request.FILES['pdf_file'])
